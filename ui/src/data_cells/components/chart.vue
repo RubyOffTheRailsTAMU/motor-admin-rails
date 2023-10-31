@@ -7,7 +7,7 @@
   >
     <polyline
       fill="none"
-      stroke="#408ccf"
+      stroke="#490905"
       stroke-width="4"
       :points="points"
     />

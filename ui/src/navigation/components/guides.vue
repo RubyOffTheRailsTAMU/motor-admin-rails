@@ -38,36 +38,6 @@
         class="text-center mb-2"
         style="max-width: 530px; margin: auto"
       >
-        <SubscribeFrom
-          v-if="!isSubscribed"
-          class="mb-4"
-        />
-
-        <p class="fs-3">
-          Have a problem or found a bug?
-        </p>
-        <VButton
-          :to="'https://github.com/motor-admin/motor-admin-rails/issues/new'"
-          target="_blank"
-          icon="ios-bug"
-          class="mt-3"
-          size="large"
-        >
-          Open Issue
-        </VButton>
-
-        <p class="fs-3 mt-3">
-          Enjoy using Motor Admin?
-        </p>
-        <VButton
-          :to="'https://github.com/motor-admin/motor-admin-rails/stargazers'"
-          target="_blank"
-          class="mt-3"
-          icon="md-star"
-          size="large"
-        >
-          Give a Star
-        </VButton>
       </div>
     </div>
   </div>
