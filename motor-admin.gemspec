@@ -5,16 +5,16 @@ require_relative 'lib/motor/version'
 Gem::Specification.new do |spec|
   spec.name        = 'motor-admin'
   spec.version     = Motor::VERSION
-  spec.authors     = ['Pete Matsyburka']
-  spec.email       = ['pete@getmotoradmin.com']
+  spec.authors     = ['Shreyas S Kasetty']
+  spec.email       = ['shreyasskasetty@tamu.edu']
   spec.summary     = 'Low-code Admin panel and Business intelligence'
   spec.license     = 'AGPL-3.0'
 
   spec.metadata = {
     'bug_tracker_uri' => 'https://github.com/motor-admin/motor-admin-rails/issues',
-    'homepage_uri' => 'https://www.getmotoradmin.com',
-    'source_code_uri' => 'https://github.com/motor-admin/motor-admin-rails',
-    'documentation_uri' => 'https://github.com/motor-admin/motor-admin-rails/tree/master/guides',
+    'homepage_uri' => 'https://phdappreview-2530b5efb143.herokuapp.com',
+    'source_code_uri' => 'https://github.com/RubyOffTheRailsTAMU/motor-admin-rails',
+    'documentation_uri' => 'https://github.com/RubyOffTheRailsTAMU/motor-admin-rails/tree/master/guides',
     'rubygems_mfa_required' => 'true'
   }
 
